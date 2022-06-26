@@ -7,19 +7,19 @@ public class SinifiGecmeDurumu {
         int matematik, fizik, turkce, kimya, muzik;
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Matematik notunuzu giriniz: ");
+        System.out.print("Matematik notunuzu giriniz: ");
         matematik = scan.nextInt();
 
-        System.out.println("Fizik notunuzu giriniz: ");
+        System.out.print("Fizik notunuzu giriniz: ");
         fizik = scan.nextInt();
 
-        System.out.println("Turkce notunuzu giriniz: ");
+        System.out.print("Turkce notunuzu giriniz: ");
         turkce = scan.nextInt();
 
-        System.out.println("Kimya notunuzu giriniz: ");
+        System.out.print("Kimya notunuzu giriniz: ");
         kimya = scan.nextInt();
 
-        System.out.println("Muzik notunuzu giriniz: ");
+        System.out.print("Muzik notunuzu giriniz: ");
         muzik = scan.nextInt();
 
         double sum = 0;
